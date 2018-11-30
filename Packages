@@ -2337,20 +2337,6 @@ Filename: ./debs/com.thuanvodka.sbew69.deb
 Size: 94264
 MD5sum: 2d31bbc7aa50ca4bb8e12cfc9364938c
 
-Package: com.thuanvodka.EWWdgtPack13
-Name: EWWdgtPack13
-Version: 1.0
-Architecture: iphoneos-arm
-Description: widget LS và HS ios >= 10
-Homepage: https://thuanvodka.github.io
-Section: Widgets
-Maintainer: thuan <thuanvodka@gmail.com>
-Author: thuan <thuanvodka@gmail.com>
-Depiction: https://thuanvodka.github.io/depictions/?p=com.thuanvodka.EWWdgtPack13
-Filename: ./debs/com.thuanvodka.EWWdgtPack13.deb
-Size: 1944518
-MD5sum: 337ce0d3bf9fd4dba041577f51d85fb7
-
 Package: com.thuanvodka.amury
 Name: Amury
 Version: 1.8
