@@ -1,0 +1,26 @@
+<package>
+	<id>com.thuanvodka.autowall</id>
+	<name>AutoWall</name>
+	<version>0.0~beta1f</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	
+	<descriptionlist>
+		<description>thay đổi hình nền LS và HS theo giờ định sẵn.ios>=11.</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss1.jpg</image>
+		</screenshot>
+	</screenshots>
+	
+</package>

@@ -1,0 +1,34 @@
+<package>
+	<id>com.thuanvodka.ewwdgtpack13</id>
+	<name>EW.Wdgt Pack13</name>
+	<version>2.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>XenHTML,Xeninfo</package>
+	</dependencies>
+	<descriptionlist>
+		<description>4 widget LS and 3 widget HS.(yêu cầu XenHTML, Xeninfo) ios>= 9.</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss2.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss3.jpg</image>
+		</screenshot>
+	</screenshots>
+	
+</package>

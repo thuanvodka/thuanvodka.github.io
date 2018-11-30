@@ -1,0 +1,21 @@
+<package>
+	<id>com.thuanvodka.localiapstore</id>
+	<name>LocalIAPStore</name>
+	<version>1.4-2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>6.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	
+	<descriptionlist>
+		<description>In-App purchases,Enable in settings. PRESS 'DISMISS' ON POPUP!
+		             ios 6-11</description>
+		<description>Chào mừng bạn đến với Repo Thuanvodka</description>
+	</descriptionlist>
+	
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+</package>

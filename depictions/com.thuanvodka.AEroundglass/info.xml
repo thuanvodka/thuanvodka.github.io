@@ -1,0 +1,27 @@
+<package>
+	<id>com.thuanvodka.AEroundglass</id>
+	<name>AEroundglass</name>
+	<version>2.2.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>Anemone</package>
+	</dependencies>
+	<descriptionlist>
+		<description>AE cho theme</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+</package>

@@ -1,0 +1,25 @@
+<package>
+	<id>com.thuanvodka.iosmojave</id>
+	<name>iosmojave</name>
+	<version>3.1.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>Anemone,Snowboard</package>
+	</dependencies>
+	<descriptionlist>
+		<description>theme style very cool</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+
+</package>

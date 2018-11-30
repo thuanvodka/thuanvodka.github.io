@@ -1,0 +1,31 @@
+<package>
+	<id>com.thuanvodka.Blu3B3rry</id>
+	<name>Blu3B3rry</name>
+	<version>1.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>Anemone,Snowboard</package>
+	</dependencies>
+	<descriptionlist>
+		<description>theme phong cách dark rose bao gồm 4AE và 2dock, cho ios >=10</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss2.jpg</image>
+		</screenshot>
+	</screenshots>
+	
+</package>

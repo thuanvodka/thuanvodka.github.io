@@ -1,0 +1,26 @@
+<package>
+	<id>com.thuanvodka.ext3nder-installer</id>
+	<name>Ext3nder-installer</name>
+	<version>021a</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	
+	<descriptionlist>
+		<description>tweak resign,backup ipa,gia hạn chứng chỉ cho app ipa tự động (ios9-11).</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>ss1.jpg</image>
+		</screenshot>
+	</screenshots>
+	
+</package>

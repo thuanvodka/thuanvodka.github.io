@@ -1,0 +1,27 @@
+<package>
+	<id>com.thuanvodka.LSLION45</id>
+	<name>LSLION45</name>
+	<version>1.2.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>XenHTML</package>
+	</dependencies>
+	<descriptionlist>
+		<description>widget LS cho XenHTML</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+</package>

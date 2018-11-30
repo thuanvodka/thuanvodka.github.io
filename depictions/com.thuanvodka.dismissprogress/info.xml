@@ -1,0 +1,21 @@
+<package>
+	<id>com.thuanvodka.dismissprogress</id>
+	<name>dismissprogress</name>
+	<version>1.0.3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	
+	<descriptionlist>
+		<description>tạo nút close khi cài tweak trên cydia mà chưa cần Respring
+						ios 7-11 </description>
+		<description>Chào mừng bạn đến với Repo Thuanvodka</description>
+	</descriptionlist>
+	
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+</package>

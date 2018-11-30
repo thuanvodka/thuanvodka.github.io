@@ -1,0 +1,25 @@
+<package>
+	<id>com.thuanvodka.floatingdock</id>
+	<name>floatingdock</name>
+	<version>1.4.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+
+	<descriptionlist>
+		<description>làm dock giống IPx for trên tất cả thiết bị chạy ios11!</description>
+		<description>Welcome To Repo Thuan's
+		             Chúc Bạn 1 Ngày Tốt Đẹp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>ss.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+</package>

@@ -1,0 +1,391 @@
+body {background-color: #292C30;
+}
+
+@font-face { font-family: "SF Pro Display"; src: url("assets/SF-Pro-Display-Regular.otf"); }
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  padding: 4%;
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Fancy Animation for rows of apps*/
+.rowitem {
+  -webkit-transition: padding 0.15s ease; /*For Safari*/
+  transition: margin 0.15s ease;
+  transition-delay: 0.05s;
+}
+/* Clear floats after the columns */
+.rowitem:after {
+  padding: 4%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*App Icons*/
+.appicon {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    height: 75%;
+    -webkit-transition: width 0.15s ease, height 0.15s ease; /* For Safari 3.1 to 6.0 */
+    transition: width 0.2s, height 0.2s;
+    transition-delay: 0.05s;
+}
+/*App Names*/
+.appname {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    margin-top: 10px;
+    -webkit-transition: font-size 0.2s ease, margin 0.2s ease;
+    transition: font-size 0.2s ease, margin 0.2s ease;
+    transition-delay: 0.05s;
+}
+/*App URL*/
+.appurl {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "SF Pro Display";
+    font-size: 0px;
+    -webkit-transition: font-size 0.2s ease, margin 0.2s ease, opacity 0.2s ease;
+    transition: font-size 0.2s ease, margin 0.2s ease, opacity 0.2s ease;
+    transition-delay: 0.05s;
+    opacity: 0.0;
+}
+/*Fancy Animation for rows of apps*/
+.rowitem:hover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rowitem:hover .appicon {
+    width: 100%;
+    height: 100%;
+}
+.rowitem:hover .appname {
+    font-size: 25px;
+    margin-left: 14px;
+    margin-top: 0px;
+}
+.rowitem:hover .appurl {
+    font-size: 18px;
+    margin-left: 14px;
+    opacity: 1.0;
+}
+
+/*Searchbox*/
+input[type=text] {
+  background: rgba(200, 200, 255, 0.2) ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+  font-size: 20px;
+  border: none;
+  margin-right: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+/*Searchbox Hoever Effect*/
+input[type=text]:hover {
+  background: linear-gradient(to right, rgba(149,136,213,0.4) , rgba(171,89,147,0.4));
+}
+
+/*Search button*/
+input[type=submit] {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+  font-size: 20px;
+  -webkit-transition: padding 0.5s ease; /*For Safari*/
+  transition: padding 0.25s ease;
+  transition: 0.25s;
+  border: none;
+}
+/*Search button hover effect*/
+input[type=submit]:hover {
+  filter: hue-rotate(90deg);
+  font-size: 22px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+/*Hide search buttons at resolution below 900 pixels wide*/
+@media screen and (max-width: 1000px) {
+    input[type=text] {
+        display: none;
+    }
+    input[type=submit] {
+        display: none;
+    }
+    .button {
+      display: none;
+    }
+}
+
+/* Button */
+.button {
+  background: linear-gradient(to right, #55B49D , #2B7DCA);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+  font-size: 20px;
+  -webkit-transition: padding 0.5s ease; /*For Safari*/
+  transition: padding 0.25s ease;
+  transition: 0.25s;
+}
+.button:hover {
+  filter: hue-rotate(90deg);
+  font-size: 22px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+/*Navbar*/
+.navbar {
+  background: black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-family: "SF Pro Display";
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  margin-bottom: 25px;
+}
+
+/*Logo Text*/
+h1 {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 26px;
+    font-weight: bold;
+    float:left;
+}
+
+/*PINPAL logo*/
+.logo {
+  width: 35px;
+  margin-right: 10px;
+}
+
+/*Subtitles above boxes*/
+.subtitle {
+    margin-left: -15%;
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 150%;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*Box that stores shortcuts*/
+.listbox {
+  width: 75%;
+  background: #2F3439;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  border-radius: 25px;
+  padding-left: 6%;
+  padding-top: 5%;
+  padding-right: 8%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-width: 2px;
+}
+
+/* Box Columns*/
+.columnbox {
+    float: left;
+    width: 50%;
+}
+.lefticons {
+  width: 20%;
+}
+.rightwords {
+  width: 80%;
+}
+@media screen and (max-width: 1600px) {
+  .lefticons {
+    width: 30%;
+  }
+  .rightwords {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .lefticons {
+    width: 20%;
+  }
+  .rightwords {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .lefticons {
+    width: 25%;
+  }
+  .rightwords {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .lefticons {
+    width: 20%;
+  }
+  .rightwords {
+    width: 80%;
+  }
+}
+
+/*Wrapper*/
+.wrapper {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navbar Columns */
+.columnnav {
+    float: left;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+/**Make Everything Smaller at 4:3*/
+@media screen and (max-width: 1600px) {
+    h1 {
+        font-size: 20px;
+    }
+    .logo {
+      width: 25px;
+    }
+    .navbar {
+      margin-bottom: 15px;
+      width: 830px;
+    }
+    .button {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    input[type=submit] {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    input[type=text] {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+    .rowitem::after {
+      padding: 3.5%;
+    }
+    .appicon {
+      width: 65%;
+      height: 65%;
+    }
+    .appname {
+      font-size: 16px;
+    }
+    .rowitem:hover .appicon {
+        width: 85%;
+        height: 85%;
+    }
+    .rowitem:hover .appname {
+        font-size: 20px;
+        margin-left: 7px;
+        margin-top: 0px;
+    }
+    .rowitem:hover .appurl {
+        font-size: 14px;
+        margin-left: 7px;
+        opacity: 1.0;
+    }
+}
+/*Disable Side Whitespace at lower resolutions*/
+@media screen and (max-width: 1500px) {
+  .wrapper {
+  width: 100%;
+  margin-left: 15px;
+  }
+}
+
+/* Two Columns below 1000px wide*/
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 50%;
+    }
+    .rowitem::after {
+      padding: 2%;
+    }
+    .appicon {
+      width: 60%;
+      height: 60%;
+    }
+    .navbar {
+      width: 93%;
+    }
+    .logo {
+      margin-left: -5px;
+    }
+}
+/* One Column below 600px wide (mobile)*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

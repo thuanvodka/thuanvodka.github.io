@@ -1,0 +1,21 @@
+<package>
+	<id>com.thuanvodka.toneenabler</id>
+	<name>ToneEnabler</name>
+	<version>1.1r-14</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>11.4</maxiOS>
+		</firmware>
+	</compatibility>
+	
+	<descriptionlist>
+		<description>hỗ trợ import nhạc chuông trực tiếp vào
+					thư mục nhạc chuông hệ thống (ios 7-11)</description>
+		<description>Chào mừng bạn đến với Repo Thuanvodka</description>
+	</descriptionlist>
+	
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+</package>
