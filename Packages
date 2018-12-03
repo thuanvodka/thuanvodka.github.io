@@ -2249,7 +2249,7 @@ Section: Themes
 Maintainer: thuan <thuanvodka@gmail.com>
 Author: thuan <thuanvodka@gmail.com>
 Depiction: https://thuanvodka.github.io/depictions/?p=com.thuanvodka.swisschoco
-Filename: ./debs/com.thuanvodka.alkaline.deb
+Filename: ./debs/com.thuanvodka.swisschoco.deb
 Size: 7461704
 MD5sum: c2d439522f6b0dcf9575dfb46d85a7ad
 
@@ -2350,3 +2350,16 @@ Depiction: https://thuanvodka.github.io/depictions/?p=com.thuanvodka.amury
 Filename: ./debs/com.thuanvodka.amury.deb
 Size: 7466852
 MD5sum: 22aa96ae981299f40f772fc768b905ac
+
+Package: com.thuanvodka.eliteX
+Name: EliteX
+Version: 2.0
+Architecture: iphoneos-arm
+Section: Themes
+Description: theme elite9 mod cho ios 11
+Author: Rob Grohman
+Maintainer: Thuan_vn <thuanvodka@gmail.com>
+Depiction: https://thuanvodka.github.io/depictions/?p=com.thuanvodka.eliteX
+Filename: ./debs/com.thuanvodka.eliteX.deb
+Size: 2338156
+MD5sum: e9b13fb768f1b7dce950e2f0efdec5ed
