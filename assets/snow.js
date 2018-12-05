@@ -1,13 +1,6 @@
-/************************************
-Editor: Hoang Luyen
-BLOG THU THUAT WORDPRESS, WEBSITE, SEO, LAP TRINH
-Website: www.hoangluyen.com
-Email: admin@hoangluyen.com
-Plugin: Hieu ung tuyet roi, giang sinh
-*************************************/
 //CAU HINH TUYET ROI
-var snowmax=150;//So luong tuyet roi
-var snowcolor=new Array("#ffffff","#ffffff","#ffffff","#ffffff","#ffffff"); //Mau sac cac hat tuyet roi
+var snowmax=200;//So luong tuyet roi
+var snowcolor=new Array("#FC3636","#ffffff","#55FFAD","#FF39AC","#2AFFFF"); //Mau sac cac hat tuyet roi
 
 var snowtype=new Array("Times","Arial","Times","Verdana");
 var snowletter="*";
