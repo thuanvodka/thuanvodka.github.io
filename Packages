@@ -2363,3 +2363,31 @@ Depiction: https://thuanvodka.github.io/depictions/?p=com.thuanvodka.eliteX
 Filename: ./debs/com.thuanvodka.eliteX.deb
 Size: 2338156
 MD5sum: e9b13fb768f1b7dce950e2f0efdec5ed
+
+Package: com.thuanvodka.aday
+Name: Aday
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Aday is a new beautiful theme 
+Maintainer: thuan_vn <thuanvodka@gmail.com>
+Author: ldkays <logo.design@outlook.fr>
+Section: Themes
+Homepage: https://thuanvodka.github.io
+Depiction: https://thuanvodka.github.io/depictions/?p=com.thuanvodka.aday
+Filename: ./debs/com.thuanvodka.aday.deb
+Size: 6252830
+MD5sum: 750e413c2d4c4f715c43de037cc15d54
+
+Package: com.thuanvodka.axla3
+Name: Axla3
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Simplicity with Colour
+Maintainer: thuan_vn <thuanvodka@gmail.com>
+Author: Andy (meteochu) <andy@meteochu.me>
+Section: Themes
+Homepage: https://thuanvodka.github.io
+Depiction: https://thuanvodka.github.io/depictions/?p=com.thuanvodka.axla3
+Filename: ./debs/com.thuanvodka.axla3.deb
+Size: 5482254
+MD5sum: 4ab894ffe4c8f5cd1aee9d14d8e4d5c3
